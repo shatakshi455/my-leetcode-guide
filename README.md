@@ -8,10 +8,10 @@ This Chrome extension helps you solve LeetCode problems by fetching **3 progress
 
 ## ✨ Features
 
-- 🧠 AI-powered hints from Google's Gemini API
-- 🧩 Automatically detects the current LeetCode problem
-- 🔒 API key stored locally (not exposed to GitHub)
-- 🧼 Clean UI with progressive hint reveal
+-  AI-powered hints from Google's Gemini API
+-  Automatically detects the current LeetCode problem
+-  API key stored locally (not exposed to GitHub)
+-  Clean UI with progressive hint reveal
 
 ---
 
