@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "LeetCode Hints by Gemini",
+  "name": "My LeetCode Guide",
   "version": "1.0",
-  "description": "Get 3 progressive hints from Gemini for the current LeetCode problem.",
+  "description": "Get 3 progressive hints for the current LeetCode problem.",
   "permissions": ["tabs", "scripting", "activeTab"],
   "action": {
     "default_popup": "popup.html",
