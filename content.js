@@ -1,5 +1,3 @@
-console.log("✅ content.js injected");
-
 function waitForSelector(selector, timeout = 5000) {
   return new Promise((resolve, reject) => {
     const interval = 100;
@@ -9,7 +7,7 @@ function waitForSelector(selector, timeout = 5000) {
       const el = document.querySelector(selector);
       if (el) return resolve(el);
       elapsed += interval;
-      if (elapsed >= timeout) return reject("⏰ Timeout waiting for " + selector);
+      if (elapsed >= timeout) return reject("Timeout");
       setTimeout(check, interval);
     };
 
@@ -26,16 +24,14 @@ chrome.runtime.onMessage.addListener((req, sender, sendResponse) => {
       .then(([titleEl, descEl]) => {
         const title = titleEl.innerText.trim();
         const description = descEl.innerText.trim();
-        console.log("📦 Title:", title);
-        console.log("📦 Description snippet:", description.slice(0, 100));
+        console.log("Title:", title);
+        console.log("Description snippet:", description.slice(0, 100));
         sendResponse({ title, description });
       })
       .catch((err) => {
-        console.error("❌ Error:", err);
+        console.error("Error:", err);
         sendResponse({ title: "No title found", description: "No description found" });
       });
-
-    // Let Chrome know this will be an async response
     return true;
   }
 });
