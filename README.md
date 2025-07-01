@@ -31,7 +31,7 @@ This Chrome extension helps you solve LeetCode problems by fetching **3 progress
 ```js
 const GEMINI_API_KEY = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=YOUR_API_KEY";
 ```
-Rename the file to popup.js
+- Rename the file to popup.js
 
 
 3. Load the extension in Chrome:
