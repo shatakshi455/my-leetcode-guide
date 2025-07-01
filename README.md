@@ -1,4 +1,4 @@
-# 🔍 My LeetCode Guide
+# My LeetCode Guide
 
 This Chrome extension helps you solve LeetCode problems by fetching **3 progressive AI-generated hints** using the **Gemini API**.
 
@@ -19,13 +19,13 @@ This Chrome extension helps you solve LeetCode problems by fetching **3 progress
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/leetcode-hint-extension.git
+   git clone https://github.com/shatakshi455/my-leetcode-guide.git
    cd leetcode-hint-extension
    ```
 2. Insert your Gemini API key:
 
 - Go to Google AI Studio
-- Get your API key (starts with AIza...)
+- Get your API key 
 - Open popup.template.js, replace the placeholder with your key:
 
 ```js
