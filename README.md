@@ -24,9 +24,9 @@ This Chrome extension helps you solve LeetCode problems by fetching **3 progress
    ```
 2. Insert your Gemini API key:
 
--Go to Google AI Studio
--Get your API key (starts with AIza...)
--Open popup.template.js, replace the placeholder with your key:
+- Go to Google AI Studio
+- Get your API key (starts with AIza...)
+- Open popup.template.js, replace the placeholder with your key:
 
 ```js
 const GEMINI_API_KEY = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=YOUR_API_KEY";
@@ -36,24 +36,16 @@ Rename the file to popup.js
 
 3. Load the extension in Chrome:
 
--Go to chrome://extensions/
--Enable Developer Mode
--Click Load unpacked and select the folder
+- Go to chrome://extensions/
+- Enable Developer Mode
+- Click Load unpacked and select the folder
 
-## 📁 Project Structure
-leetcode-hint-extension/
-├── manifest.json
-├── popup.html
-├── popup.template.js   ← insert your API key here and rename to popup.js
-├── style.css
-├── README.md
-└── .gitignore
 
 ## 🛠 Technologies Used
--JavaScript (Vanilla)
--Chrome Extensions API (v3)
--Gemini 1.5 Flash API (Google Generative Language)
--HTML/CSS
+- JavaScript (Vanilla)
+- Chrome Extensions API (v3)
+- Gemini 1.5 Flash API (Google Generative Language)
+- HTML/CSS
 
 
 
